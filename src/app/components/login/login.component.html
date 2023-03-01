@@ -1,0 +1,3 @@
+<p>login works!</p>
+<button *ngIf="isConnected" (click)="logout()">Déconnexion</button>
+<button *ngIf="!isConnected" (click)="login()">Connexion</button>

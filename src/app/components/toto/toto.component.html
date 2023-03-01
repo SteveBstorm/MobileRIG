@@ -1,0 +1,13 @@
+<p>toto works!</p>
+<button (click)="getList()">Get List</button>
+<ul>
+  <li *ngFor="let truc of liste">
+    {{truc.nickName}}
+  </li>
+</ul>
+
+<ul>
+  <li *ngFor="let p of pokedex.results">
+    {{p.name}}
+  </li>
+</ul>
